@@ -1,0 +1,16 @@
+vim /etc/my.cof.d/server.cnf
+[mysqld]
+log_bin=/var/lib/mysql/bin_log
+server_id=1
+binlog_format=ROW
+
+
+create user 'sk'@'%' identified by '12345678';
+create user 'sk'@'localhost' identified by '12345678';
+
+GRANT SELECT ON xc.* TO 'sk'@'%' IDENTIFIED BY '12345678' WITH GRANT OPTION;
+GRANT SELECT ON xc.* TO 'sk'@'localhost' IDENTIFIED BY '12345678' WITH GRANT OPTION;
+
+GRANT SUPER, RELOAD, PROCESS, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO sk@'%';
+GRANT SUPER, RELOAD, PROCESS, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO sk@'localhost';
+
