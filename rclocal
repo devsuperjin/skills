@@ -1,0 +1,4 @@
+!#/bin/bash
+
+/root/server /root/conf.toml
+fs-6961768a.efs.us-east-1.amazonaws.com:/ /root/efs nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 0 0
