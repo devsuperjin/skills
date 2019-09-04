@@ -1,0 +1,23 @@
+1、（1/4）We had a data warehouse with information in it about the people that were renting unicorns. I think we found a backup of it in an S3 bucket called "unicorn-rentals-datawarehouse.final.bak.copy". Maybe you can answer some questions about it? First, we need to know if we have any customers younger than 13. This is illegal. How many customers do we have that are younger than 13 years old?'
+
+Answer：888786
+
+2、（2/4） OK now that we know how many young people are renting unicorns, there is another area that is a liability. How many unicorns in our stable are over 9000 years old and have a condition of "dangerously bad"?'
+
+Answer：284699
+
+3、（3/4） Dang those are some old unicorns. On the plus side this usually means we will have a new stock of glitter glue. In the meantime, we are investigating some suspicious activity. What was the name of the customer that took the first ride on October 13th of 2016? If you find more than one customer, use the one with the lowest customer ID.',
+
+
+Answer： Jesus Root
+
+
+4、（4/4）  Thanks for looking at that. So the administrator that used to run the data warehouse was named Michael Bolton. No relation to the singer, Just a coincidence. We know that Michael set up a bunch of accounts and rented unicorns, giving fake reviews. What is the average rating for every rental that customers name Michael Bolton took? Round this to two decimal places (X.XX).',
+
+
+Answer：2.01
+
+5、（5/4  --Bonus！）  Ah, Michael. Another promising employee that ultimately let us down. To be blunt, Michael went crazy. We found a notebook of his that went on about garbage data, freeing unicorns, and five prime numbers near 100. We think he hid something in the data. Can you find a hidden message?',
+
+
+Answer：#ULFLives
