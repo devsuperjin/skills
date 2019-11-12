@@ -654,8 +654,8 @@
                         "DestinationSecurityGroupId": {
                             "Ref": "elbsg"
                         },
-                        "FromPort": "7777",
-                        "ToPort": "7777",
+                        "FromPort": "80",
+                        "ToPort": "80",
                         "IpProtocol": "tcp"
                     }
                 ],
