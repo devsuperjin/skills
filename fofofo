@@ -1,0 +1,13 @@
+#!/bin/bash
+export $grepa=`ps -ef|grep server|wc -l`
+alias grepa="ps -ef|grep |wc -l"
+while(true)
+do
+    sleep 3
+    if [ grepa -eq 2 ]
+        then
+            echo "NO"
+    else
+        /root
+    fi
+done
